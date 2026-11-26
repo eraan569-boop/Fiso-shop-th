@@ -1,4 +1,4 @@
-p import { LiquidNavbar, NimbusIcons } from './liquid-navbar.js';
+import { LiquidNavbar, NimbusIcons } from './liquid-navbar.js';
 
 /* ================= CONFIG ================= */
 // Only these 3 emails can register as Owner. Replace with the real addresses.
