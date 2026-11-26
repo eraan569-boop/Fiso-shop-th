@@ -2,7 +2,7 @@ import { LiquidNavbar, NimbusIcons } from './liquid-navbar.js';
 
 /* ================= CONFIG ================= */
 // Only these 3 emails can register as Owner. Replace with the real addresses.
-const OWNER_EMAILS = ['owner1@example.com', 'owner2@example.com', 'owner3@example.com'];
+const OWNER_EMAILS = ['mderan8338@gmail.com', 'owner2@example.com', 'owner3@example.com'];
 const OWNER_WA = '+8801356792269';          // default WhatsApp button
 const TRIAL_MS = 90 * 864e5;                // 3 months free for new sellers
 const CATS = ['All', 'Fashion', 'Electronics', 'Home', 'Beauty', 'Grocery'];
