@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#eaf2ff">
+<title>Fiso Bazar BD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="home">
+<div class="blobs" aria-hidden="true"><i></i><i></i><i></i></div>
+
+<div class="app">
+  <nav id="nav" aria-label="Main"></nav>
+
+  <header class="hdr glass">
+    <div class="brand"><h1>Fiso Bazar BD</h1><small>Owned by ERAN</small></div>
+    <div class="hdr-search"><input id="hq" placeholder="Search products" aria-label="Search products"></div>
+    <button class="icon-btn" data-act="go" data-n="cart" aria-label="Cart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2.5l2 11h10l2-8H7"/><circle cx="9.5" cy="19.5" r="1.2"/><circle cx="16.5" cy="19.5" r="1.2"/></svg>
+      <b id="cc" hidden>0</b>
+    </button>
+  </header>
+
+  <main id="view"></main>
+  <aside id="side" class="glass" aria-label="Cart summary"></aside>
+</div>
+
+<a id="wa" class="wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3zm4.6 12.3c-.2.6-1.2 1.1-1.7 1.1-.4.1-1 .1-1.6-.1-3-1.1-5-4.2-5.1-4.4-.2-.2-1.200-1.600-1.200-3s.7-2.100 1-2.400c.3-.3.600-.3.800-.3h.600c.2 0 .4 0 .6.500l.8 2c.1.2.1.400 0 .600l-.4.600c-.1.200-.3.400-.1.700.2.300.8 1.300 1.800 2.100 1.200 1 2.200 1.400 2.500 1.500.3.100.5.100.7-.1l.9-1c.2-.3.4-.2.700-.1l1.900.9c.3.1.5.200.5.400 0 .2 0 .7-.2 1.200z"/></svg>
+</a>
+
+<div id="sheet" class="sheet" aria-hidden="true"><div class="panel glass" id="panel"></div></div>
+<div id="toast" class="toast glass" role="status"></div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
